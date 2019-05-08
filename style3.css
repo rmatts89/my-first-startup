@@ -1,0 +1,53 @@
+
+.container {
+	flex-wrap: wrap;
+	display: flex;
+	border: 1px solid grey;
+}
+
+body {
+		background-size: cover;
+	background-color: coral;
+}
+
+p {
+	border: 3px solid purple;
+	color: black;
+	text-decoration: underline;
+	font-size: 150%;
+	font-family: "dancing script", cursive;
+}
+
+div {
+	background-color: rgba(0,0,255,.10)
+}
+
+img {
+	transition: all 1s;
+	margin: 10px;
+}
+
+img:hover {
+	transform(1.4)
+}
+
+#div1 {
+	align-content: center;
+	background-color: rgba(0,0,255,.10)
+}
+#div3:hover {
+	transition: scale(1.2);
+}
+
+.links {
+	border: 5px solid grey;
+	background-color: black;
+	color: white;
+}
+
+.col {
+	border: 2px solid navy;
+	background-color: purple;
+
+}
+
